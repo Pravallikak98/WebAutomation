@@ -18,7 +18,7 @@ public class HomePage extends CommonFunctions {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
+//This is demo github tutorial
 	@FindBy(css = ".ico-account")
 	WebElement myAccount;
 
